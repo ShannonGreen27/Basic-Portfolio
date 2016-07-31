@@ -1,0 +1,41 @@
+.relative{
+background: #eee;
+padding: 100px;
+position: relative;
+}
+
+.absolute1{
+background: #FFFFFF;
+margin: 0px;
+padding: 0px;
+position: relative;
+height: 400px;
+width: 600px;
+}
+
+.absolute2{
+background: #999;
+padding: 40px;
+position: absolute;
+bottom: 10px;
+right: 20px;
+
+}
+
+.absolute3{
+background: #999;
+padding: 40px;
+position: absolute;
+bottom: 10px;
+right: 20px;
+
+}
+
+.absolute4{
+background: #999;
+padding: 40px;
+position: absolute;
+bottom: 10px;
+right: 20px;
+
+}
