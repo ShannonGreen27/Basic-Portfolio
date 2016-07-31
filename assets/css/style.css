@@ -5,14 +5,18 @@ position: relative;
 }
 
 .absolute1{
-background: #FFFFFF;
+background: #FF0000;
 margin: 0px;
 padding: 0px;
-position: relative;
+position: absolute;
 height: 400px;
 width: 600px;
 }
 
+img{
+  float: left;
+}
+/*
 .absolute2{
 background: #999;
 padding: 40px;
@@ -39,3 +43,4 @@ bottom: 10px;
 right: 20px;
 
 }
+*/
