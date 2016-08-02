@@ -16,10 +16,16 @@ padding-bottom: 90px;
 right: 50px;
 }
 
+.mainhr{
+background-color: #cccccc;
+position: relative;
+margin: 0px;
+}
+
 .middle{
 background: #dddddd;
 position: relative;
-padding-bottom: 600px;
+height: 665px;
 overflow: auto;
 }
 
@@ -27,40 +33,44 @@ overflow: auto;
 background-color: #ffffff;
 position: absolute;
 margin: auto;
-width: 650px;
-padding: 20px;
+padding: 0px 20px;
+width: 610px;
 left: 140px;
 top: 30px;
 }
 
-.connect{
+.connectwithme{
 background-color: #ffffff;
 position: absolute;
-padding: 20px;
-right: 300px;
-top: 30px;
+padding: 0px 20px 20px;
+left: 690px;
+top: 0px;
+width: 230px;
+}
+
+.icons{
+padding-right: 20px;	
+}
+
+.stack{
+padding-right: 0px;	
 }
 
 img{
   float: left;
-  padding: 10px 20px 20px;
+  padding: 10px 20px 10px;
   padding-left: 0px;
 }
 
-.bottomband{
-background: #4aaaa5;
-position: relative;
-padding-bottom: 10px;
-bottom: auto;
-margin: auto;
+.icons{
+height: 60px;
+width: 60px;	
+padding-right: 25px;
+margin-right: 0px
 }
 
-.footer{
-background: #666666;
-padding: 40px;
-position: relative;
-text-align: center;
-color: #ffffff;
+.stack{
+padding-right: 0px;
 }
 
 .about{
@@ -99,12 +109,12 @@ font-family: arial;
 .name{
 background-color: #4aaaa5;
 position: relative;
-padding: 30px 0px 30px 40px;
+padding: 25px 0px;
 left: 140px;
-margin-right: 960px;
-margin-top: 0px;
-margin-bottom: 0px;
+text-align: center;
+margin: 0px;
 color: #ffffff;
+width: 300px;
 }
 
 p{
@@ -122,9 +132,21 @@ font-family: georgia;
 color: #4aaaa5;
 }
 
-.mainhr{
-background-color: #cccccc;
-padding: 0px;
+.bottomband{
+background: #4aaaa5;
+position: absolute;
+height: 10px;
 top: 0px;
-margin: 0px;
+width: 100%;
+}
+
+.footer{
+background: #666666;
+height: 50px;
+width: 100%;
+padding-top: 40px;
+position: absolute;
+text-align:  center;
+color: #ffffff;
+bottom: 0px;
 }
