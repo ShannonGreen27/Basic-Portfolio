@@ -1,46 +1,130 @@
-.relative{
-background: #eee;
-padding: 100px;
-position: relative;
+body{
+	margin: 0px;
 }
 
-.absolute1{
-background: #FF0000;
+.header{
+background: #FFFFFF;
+position: relative;
 margin: 0px;
-padding: 0px;
+padding-bottom: 0px;
+}
+
+.toprightpanel{
+background: #ffffff;
 position: absolute;
-height: 400px;
-width: 600px;
+padding-bottom: 90px;
+right: 50px;
+}
+
+.middle{
+background: #dddddd;
+position: relative;
+padding-bottom: 600px;
+overflow: auto;
+}
+
+.content{
+background-color: #ffffff;
+position: absolute;
+margin: auto;
+width: 650px;
+padding: 20px;
+left: 140px;
+top: 30px;
+}
+
+.connect{
+background-color: #ffffff;
+position: absolute;
+padding: 20px;
+right: 300px;
+top: 30px;
 }
 
 img{
   float: left;
+  padding: 10px 20px 20px;
+  padding-left: 0px;
 }
-/*
-.absolute2{
-background: #999;
+
+.bottomband{
+background: #4aaaa5;
+position: relative;
+padding-bottom: 10px;
+bottom: auto;
+margin: auto;
+}
+
+.footer{
+background: #666666;
 padding: 40px;
-position: absolute;
-bottom: 10px;
-right: 20px;
-
+position: relative;
+text-align: center;
+color: #ffffff;
 }
 
-.absolute3{
-background: #999;
-padding: 40px;
+.about{
+background-color: #ffffff;
 position: absolute;
-bottom: 10px;
-right: 20px;
-
+padding: 30px;
+padding-bottom: 40px;
+text-align: center;
+right: 365px;
+color: #777777;
+font-family: arial;
 }
 
-.absolute4{
-background: #999;
-padding: 40px;
+.portfolio{
+background-color: #ffffff;
 position: absolute;
-bottom: 10px;
-right: 20px;
-
+padding: 30px;
+padding-bottom: 40px;
+text-align: center;
+right: 250px;
+color: #777777;
+font-family: arial;
 }
-*/
+
+.contact{
+background-color: #ffffff;
+position: absolute;
+padding: 30px;
+padding-bottom: 40px;
+text-align: center;
+right: 140px;
+color: #777777;
+font-family: arial;
+}
+
+.name{
+background-color: #4aaaa5;
+position: relative;
+padding: 30px 0px 30px 40px;
+left: 140px;
+margin-right: 960px;
+margin-top: 0px;
+margin-bottom: 0px;
+color: #ffffff;
+}
+
+p{
+color: #777777;
+font-family: arial;
+}
+
+h1{
+font-family: georgia;
+color: #4aaaa5;
+}
+
+h2{
+font-family: georgia;
+color: #4aaaa5;
+}
+
+.mainhr{
+background-color: #cccccc;
+padding: 0px;
+top: 0px;
+margin: 0px;
+}
