@@ -1,24 +1,21 @@
-* {
-  margin: 0;
-}
+
 html, body {
   height: 100%;
   background: #dddddd;
 }
 .wrapper {
   min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -155px; 
+  margin-bottom: -90px; 
 }
 .wrapper:after {
   content: "";
   display: block;
 }
 footer, .wrapper:after {
-  height: 155px; 
+  height: 50px; 
 }
 
-.header{
+header{
 background: #FFFFFF;
 position: relative;
 padding-bottom: 0px;
@@ -35,14 +32,7 @@ width: 300px;
 font-size: 35px;
 font-weight: bold;
 }
-
-.toprightpanel{
-background: #dddddd;
-position: absolute;
-padding-bottom: 90px;
-right: 50px;
-}
-
+/*
 .about{
 background-color: #ffffff;
 position: absolute;
@@ -51,6 +41,7 @@ text-align: center;
 right: 365px;
 color: #777777;
 font-family: arial;
+text-decoration: none;
 }
 
 .portfolio{
@@ -62,15 +53,22 @@ right: 250px;
 color: #777777;
 font-family: arial;
 }
-
-.contact{
+*/
+.option{
+display: inline;
 background-color: #ffffff;
-position: absolute;
-padding: 35px 30px 35px 30px;
-text-align: center;
-right: 140px;
 color: #777777;
 font-family: arial;
+margin: 0px;
+padding: 34px 20px;
+float: right;
+display: block;
+text-align: center;
+text-decoration: none;
+}
+
+.contact{
+margin-right: 200px;
 }
 
 .mainhr{
@@ -82,7 +80,7 @@ margin: 0px;
 .content{
 background-color: #ffffff;
 position: relative;
-margin-bottom: 30px;
+margin-bottom: 100px;
 padding: 20px;
 width: 610px;
 left: 140px;
@@ -99,10 +97,10 @@ width: 230px;
 }
 
 img{
-  float: left;
-  padding: 10px 20px 10px;
-  padding-left: 0px;
-  height: 200px;
+float: left;
+padding: 10px 20px 10px;
+padding-left: 0px;
+height: 200px;
 }
 
 .icons{
@@ -124,9 +122,9 @@ line-height: 200%;
 
 
 .icons:hover { 
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
-    color: inherit;
+-webkit-filter: invert(100%);
+filter: invert(100%);
+color: inherit;
 }
 
 h1{
@@ -155,7 +153,7 @@ width: 100%;
 
 footer{
 background: #666666;
-/*padding: 50px 0px 40px 0px;*/
+padding: 50px 0px 0px 0px;
 position: relative;
 text-align:  center;
 color: #ffffff;
