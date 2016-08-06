@@ -1,1 +1,1 @@
-<?php include_once("studentBio.hmtl"); ?>
+<?php include_once("index.html"); ?>
